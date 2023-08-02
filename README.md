@@ -27,9 +27,9 @@
     <li>Clone the repository from [GitHub URL].</li>
     <li>Install the required dependencies for both the front-end and back-end:</li>
 </ol>
-<pre><code>cd frontend
+<pre><code>cd client
 npm install
-cd ../backend
+cd ../server
 npm install
 </code></pre>
 <p>3. Set up the database:</p>
