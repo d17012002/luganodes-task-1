@@ -4,7 +4,7 @@ const axios = require('axios');
 async function sendPostRequest() {
     console.log("hitting post req");
   try {
-    const response = await axios.post('http://localhost:5000/notify/subscribe', {
+    const response = await axios.post('https://luganodes-backend-nok6.onrender.com/notify/subscribe', {
     });
 
     console.log('POST request successful:', response.data);
