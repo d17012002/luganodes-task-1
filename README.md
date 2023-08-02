@@ -43,5 +43,14 @@
 <pre><code class="language-arduino">npm run dev</code></pre>
 <h4>Note: Make sure to follow the exact steps mentioned above to avoid any errors or issues.</h4>
 <br>
+
+<h1>🙌 Contributions</h1>
+We welcome contributions to our project. If you have any suggestions or improvements, feel free to submit a pull request or open an issue.
+<br>
+<br>
+
+<h1>📜 License</h1>
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
 </body>
 </html>
