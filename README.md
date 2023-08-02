@@ -16,15 +16,15 @@
 <p>For users who prefer to receive daily updates via email, the web application offers an optional subscription to price update emails. The emails include relevant information, such as the current prices and percentage changes of the tracked cryptocurrencies. The emails also feature the web application's logo for branding purposes.</p>
 <h2>Technology Stack</h2>
 <ul>
-    <li>Front-end: React.js, Next.js (or any other JavaScript frameworks)</li>
-    <li>Back-end: Node.js, Express.js (or any other suitable back-end frameworks)</li>
-    <li>Database: MongoDB (or any preferred database for storing user preferences and tracked cryptocurrencies)</li>
-    <li>Cryptocurrency Price API: The web application integrates a reliable API to fetch real-time price data.</li>
+    <li>Front-end: Next.js </li>
+    <li>Back-end: Node.js, Express.js </li>
+    <li>Database: MongoDB </li>
+    <li>Cryptocurrency Price API</li>
 </ul>
 <h2>Getting Started</h2>
 <p>To run the Cryptocurrency Tracker Web Application locally, follow these steps:</p>
 <ol>
-    <li>Clone the repository from [GitHub URL].</li>
+    <li>Clone the repository from https://github.com/d17012002/luganodes-task-1.</li>
     <li>Install the required dependencies for both the front-end and back-end:</li>
 </ol>
 <pre><code>cd client
