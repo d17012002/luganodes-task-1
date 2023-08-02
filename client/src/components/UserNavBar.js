@@ -55,7 +55,7 @@ export default function NavBar() {
                         className="flex items-center gap-3 cursor-pointer"
                     >
                         <h1 className="m-2 text-black font-bold text-4xl">
-                            Tracert 💸
+                            Tracert
                         </h1>
                     </div>
                     <nav className="text-sm">

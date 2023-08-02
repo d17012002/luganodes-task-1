@@ -7,7 +7,7 @@
 :root {
   --font-base: "Inter", sans-serif;
 
-  --primary-color: #cacaca; /* dark gray */
+  --primary-color: #f0f0f0; /* dark gray */
   --secondary-color: #3498db; /* light blue */
   --darker-secondary-color: #2980b9; /* darker blue */
   --white-color: #ffffff;
