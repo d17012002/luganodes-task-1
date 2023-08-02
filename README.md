@@ -21,47 +21,27 @@
     <li>Database: MongoDB </li>
     <li>Cryptocurrency Price API</li>
 </ul>
-<h2>Getting Started</h2>
-<p>To run the Cryptocurrency Tracker Web Application locally, follow these steps:</p>
-<ol>
-    <li>Clone the repository from https://github.com/d17012002/luganodes-task-1.</li>
-    <li>Install the required dependencies for both the front-end and back-end:</li>
-</ol>
-<pre><code>cd client
-npm install
-cd ../server
-npm install
-</code></pre>
-<p>3. Set up the database:</p>
-<ul>
-    <li>Install MongoDB and create a new database for the application.</li>
-    <li>Update the MongoDB connection string in the backend configuration file (if necessary).</li>
-</ul>
-<p>4. Obtain an API key from a reliable cryptocurrency price API provider.</p>
-<ul>
-    <li>Update the API key in the backend configuration file.</li>
-</ul>
-<p>5. Run the application:</p>
-<pre><code>cd frontend
-npm run dev
-cd ../backend
-npm run start
-</code></pre>
-<p>6. Access the web application on <a href="http://localhost:3000">http://localhost:3000</a> in your web browser.</p>
-<h2>Deployment</h2>
-<p>To deploy the Cryptocurrency Tracker Web Application on a web server, follow these general steps:</p>
-<ol>
-    <li>Build the front-end:</li>
-</ol>
-<pre><code>cd frontend
-npm run build
-</code></pre>
-<p>2. Deploy the built front-end files to the web server.</p>
-<p>3. Deploy the back-end on the web server.</p>
-<p>4. Configure environment variables for the production environment, including the database connection string and API keys.</p>
-<p>5. Set up a process manager (e.g., PM2) to keep the Node.js server running in the background.</p>
-<p>6. Ensure proper security measures are in place, such as HTTPS encryption and authentication.</p>
-<h2>Conclusion</h2>
-<p>The Cryptocurrency Tracker Web Application provides users with a powerful tool to track and monitor their preferred cryptocurrencies in real-time. With price alert triggers and graphical representations of price trends, users can make informed decisions based on up-to-date data. The optional daily price update email feature further enhances the user experience, making it a comprehensive solution for cryptocurrency enthusiasts and investors.</p>
+<h1>🚀 Getting Started (Locally)</h1>
+
+<h3>Download or clone the repository</h3>
+<p>You can download the zip file of the repository or use the following command in your terminal to clone the repository:</p>
+<pre><code class="language-bash">git clone https://github.com/d17012002/luganodes-task-1</code></pre>
+<h3>Navigate to the project's root directory</h3>
+<p>Once you have downloaded or cloned the repository, navigate to the project's root directory. The project consists of 2 folders: client and server.</p>
+<h3>Install dependencies</h3>
+<p>Before starting the servers, make sure to install the dependencies by running the command:</p>
+<pre><code class="language-bash">npm install</code></pre>
+<b>in all two folders: client and server.</b>
+
+<h3>Start the servers</h3>
+<p>To start the servers, run the following commands:</p>
+<p>For the client-side:</p>
+<pre><code class="language-arduino">npm run dev</code></pre>
+<p>For the server-side:</p>
+<pre><code>nodemon index.js</code></pre>
+<p>For the developer-side:</p>
+<pre><code class="language-arduino">npm run dev</code></pre>
+<h4>Note: Make sure to follow the exact steps mentioned above to avoid any errors or issues.</h4>
+<br>
 </body>
 </html>
