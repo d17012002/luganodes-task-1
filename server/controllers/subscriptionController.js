@@ -93,7 +93,36 @@ const subscribeCurrency = async (req, res) => {
   }
 };
 
+
+const removeSubscription = async (req, res) => {
+  const {userId, currencyId} = req.body;
+  try {
+    const user = await User.findOne({ user_id: userId });
+    if (!user) {
+      return res.status(404).json({ message: 'User not found.' });
+    }
+
+    const currencyIndex = user.subscribed.findIndex((subscribe) => subscribe.currencyId === currencyId);
+
+    if (currencyIndex !== -1) {
+      user.subscribed.splice(currencyIndex, 1);
+      const updatedUser = await user.save();
+
+      return res.status(200).json({
+        message: 'Currency subscribe deleted successfully.',
+        user: updatedUser,
+      });
+    } else {
+      return res.status(404).json({ message: 'Currency subscribe not found.' });
+    }
+  } catch (error) {
+    console.error('Error deleting currency subscribe:', error);
+    return res.status(500).json({ message: 'Internal server error. Please try again later.' });
+  }
+}
+
 module.exports = {
   dailyUpdate,
   subscribeCurrency,
+  removeSubscription
 };

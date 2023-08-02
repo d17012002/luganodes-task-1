@@ -2,12 +2,12 @@ const express = require("express");
 const router = express.Router();
 const {
     dailyUpdate,
-    subscribeCurrency
+    subscribeCurrency,
+    removeSubscription
 } = require("../controllers/subscriptionController");
 
 router.route("/subscribe").post(dailyUpdate);
 router.route("/subscribe/currency").post(subscribeCurrency);
-// router.route("/signin").post(signIn);
-// router.route("/signin/verify").post(verifyLogin);
+router.route("/remove/subscribe").post(removeSubscription);
 
 module.exports = router;

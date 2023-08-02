@@ -6,8 +6,10 @@ const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 
 const subscriptionRouter = require('./routes/subscriptionRoute')
+
 const authRouter = require('./routes/authRoute')
 const limitRouter = require('./routes/limitsRoute')
+const userRouter = require('./routes/userRoute')
 
     
 mongoose.set('strictQuery', false);
@@ -38,6 +40,7 @@ app.use(cors());
 app.use('/notify', subscriptionRouter);
 app.use('/user', authRouter);
 app.use('/currency', limitRouter);
+app.use('/user', userRouter);
 
 app.get("/", (req, res)=>{
     res.send("Currency web app backend.")
