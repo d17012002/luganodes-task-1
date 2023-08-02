@@ -16,7 +16,7 @@ async function sendPostRequest() {
 // Function to hit the POST request every 24 hours (24 * 60 * 60 * 1000 milliseconds)
 function schedulePostRequest() {
     console.log("sending");
-  const interval = 60000 * 2; // 2 min in milliseconds for testing
+  const interval = 60000 * 1; // 2 min in milliseconds for testing
     setInterval(sendPostRequest, interval);
 }
 
